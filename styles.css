@@ -1,0 +1,43 @@
+body{
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;  
+    height: 100vh;  
+}
+
+.paper{
+    margin: 40px 450px;
+    padding: 100px 50px;
+    background: rgb(250, 237, 240);
+    position: relative;
+    width: 500px;
+}
+p{
+    font-weight: bold;
+}
+
+.r{
+    position: absolute;
+    border: solid 4px red;
+    color: red;
+    width: 120px;
+    font-weight: bold;
+    opacity: 0.8;
+    align-items: center;
+}
+
+#r1{
+    display: flex;
+    transform:rotate(345deg) ;
+    transform:translate(55,100) ;
+    top: 70px;
+    right: 90px;
+}
+
+#r2{
+    transform: rotate(35deg);
+    bottom: 60px;
+    left: 250px;
+}
